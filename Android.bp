@@ -54,9 +54,12 @@ android_app {
     privileged: true,
 
     overrides: [
+        "Home",
         "Launcher2",
         "Launcher3",
         "Launcher3QuickStep",
+        "Trebuchet",
+        "TrebuchetQuickStep",
     ],
 
     static_libs: ["CarLauncher-core"],
